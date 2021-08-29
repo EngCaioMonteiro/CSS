@@ -1,9 +1,21 @@
+* { margin: 0; padding: 0;} /*Reset*/
+
 body    {
     background: rgb(163, 193, 194);
 }
 
 #title, .subtitle, .post_title {
     color: blue;
+}
+
+h1#title, .subtitle, .post_title    {
+    color: blueviolet;
+    display: block;
+    margin: 15px auto;
+    border: solid 1px black;
+    width: 400px;
+    height: 40px;
+    text-align: center;
 }
 
 .post_title {
@@ -17,4 +29,18 @@ body    {
     font-style: italic;
     border: 3px solid black;
     margin: 15px 100px;   
+}
+
+IMG.imagem   {
+    margin: 15px;
+    display: block;
+    width: 100px;
+    border: solid 1px black;
+    border-radius: 50%;
+}
+
+IMG.imagemOceano   {
+    display: block;
+    margin: 20px auto;
+    width: 800px;
 }
